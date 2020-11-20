@@ -4,7 +4,6 @@ import styled from 'styled-components'
 function TextSection(props) {
     let title = props.title || `Error`;
     let sentences = props.sentences || []
-    let includeSep = props.separator || false
 
     return (
         <Root>
@@ -24,10 +23,6 @@ function TextSection(props) {
                     }
                 )
             }
-            {
-                includeSep &&
-                <SeparatorCSS/>
-            }
         </Root>
     );
 
@@ -43,14 +38,6 @@ const TitleCSS = styled.h2`
 
 const SentenceCSS = styled.span`
 
-`
-
-const SeparatorCSS = styled.hr`
-    margin: 0;
-    margin-top: 1rem;
-    border-top-width: 1px;
-    border-style: solid;
-    border-color: #e2e8f0;
 `
 
 export default TextSection;

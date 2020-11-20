@@ -37,7 +37,8 @@ const ExpCSS = styled.div`
 `
 
 const Root = styled.section`
-
+    flex: 1;
+    margin-right: 2rem;
 `
 
 export default ExpSection;

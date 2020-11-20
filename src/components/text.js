@@ -27,6 +27,55 @@ export const EXP = [
     }
 ]
 
+// Skills section
+export const SKILLS_TITLE = "Skills"
+export const SKILLS_CURRENT = [
+    {
+        "name": "Javascript/React",
+        "info": "I started learning JavaScript/React at my first Kodak Alaris internship (May 2019). Since then, I have created utility websites for work, worked on React applications for work, and created personal websites for myself."
+    },
+    {
+        "name": "Java",
+        "info": "Java was my first programming language (programming bots in Runescape). I have used it on and off since 2010 for programming projects, school (high school and college classes/projects), and personal projects. If needed, I can definitely pick up the language again with little to no effort."
+    },
+    {
+        "name": "Python",
+        "info": "I have used Python to write small scripts and have used it to write some college projects. I have a basic knowledge of the language but have played around with it on and off for the last 5 years. If required, I can pick it up at a more advanced level pretty easily."
+    },
+    {
+        "name": "HTML/CSS",
+        "info": "I learned HTML/CSS alongside JavaScript/React. Writing JSX includes writing HTML and I love the package style-components (CSS-in-JS), so I guess you could say I know them well."
+    },
+    {
+        "name": "Agile Process",
+        "info": "I used the agile process at all three of my previous internships."
+    },
+    {
+        "name": "Linux & Windows",
+        "info": "I dual boot Linux and Windows. Linux is used for 95% of my tasks (main OS) while Windows is used for gaming and other Windows-only programs."
+    },
+    {
+        "name": "VSCode",
+        "info": "I have been using VSCode for a while and love it. I also know how to use vim (basic usage) if SSH'd into a computer."
+    }
+    ,
+    {
+        "name": "Git/Github",
+        "info": "I have used Git for as long as I can remember. I know the basic usage of Git but have mainly been using Github Desktop instead. I have also used ClearCase in the past (at Xerox) but haven't in a couple of years."
+    }
+]
+
+export const SKILLS_OTHER = [
+    {
+        "name": "C++",
+        "info": "I learned C++ at my Xerox internship. I have been using it on and off since then (sometimes for school projects). I recently spent 8 weeks using it for my summer project at my internship for Kodak Alaris (2020)."
+    },
+    {
+        "name": "NodeJS",
+        "info": "At my first internship for Kodak Alaris, I did spend a ton of time using NodeJS to write different backend 'systems' that communicated with each other. I haven't used it much since then, but could pick it up at a more advanced level again."
+    },
+]
+
 // Third section of the website
 export const MORE_ABOUT_ME_TITLE = "More about me"
 export const MORE_ABOUT_ME_SENTENCES = [
