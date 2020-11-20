@@ -11,6 +11,11 @@ export const EXP_TITLE = "Experience"
 export const EXP_SUBTEXT = "I currently have two years of experience in industry."
 export const EXP = [
     {
+        "title": "Software Development Intern Part-Time",
+        "company": "Kodak Alaris",
+        "dates": "Aug 2020 - Current"
+    },
+    {
         "title": "Software Development Intern",
         "company": "Kodak Alaris",
         "dates": "May 2020 - Aug 2020"
