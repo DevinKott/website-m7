@@ -85,8 +85,9 @@ export const SKILLS_OTHER = [
 export const MORE_ABOUT_ME_TITLE = "More about me"
 export const MORE_ABOUT_ME_SENTENCES = [
     "I enjoy messing around with home automation, fixing iPhones, rock climbing, playing volleyball, riding motorcycles, flying drones, photography, and learning French.",
-    "Here are some of the technologies and hardware I use on a daily basis: Linux Mint, Windows, NUC10i5, Synology DS218, Netgear Orbi, HomeAssistant, RPi, Xiaomi, Nginx, PiHole, Wireguard, mosquitto, Node-RED, TickTick.",
+    "Here are some of the technologies and hardware I use on a daily basis: Linux Mint, Windows, NUC10i5, Synology DS218, Netgear Orbi, proxmox RPi, Xiaomi, PiHole, TickTick.",
     "I use a few AWS services as well: Amplify, Route 53, CloudFront, S3, Lambda.",
+    "My NUC10i5 runs proxmox with several containers for various services, including HomeAssistant, Plex, and caddy.",
     "Feel free to contact me by email at <code>i @ a</code>, where <code>i = devin</code> and <code>a = devinkott.com</code>.",
     "You can visit my linkedin at <code>'https://www.linkedin.com/in/' + i + '-kott'</code>.",
     "You can visit my github at <code>'https://github.com/' + i + 'kott'</code>."
