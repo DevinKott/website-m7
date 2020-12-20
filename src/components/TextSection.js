@@ -3,26 +3,12 @@ import styled from 'styled-components'
 
 function TextSection(props) {
     let title = props.title || `Error`;
-    let sentences = props.sentences || []
+    let content = props.sentences || `Error`
 
     return (
         <Root>
             <TitleCSS>{title}</TitleCSS>
-            {
-                sentences.map(
-                    (sentence, index) => {
-                        if (index !== sentences.length - 1) {
-                            sentence += " ";
-                        }
-
-                        return (
-                            <SentenceCSS dangerouslySetInnerHTML={{
-                                __html: sentence
-                            }}/>
-                        )
-                    }
-                )
-            }
+            <span dangerouslySetInnerHTML={{__html: content}}/>
         </Root>
     );
 
@@ -33,10 +19,6 @@ const Root = styled.section`
 `
 
 const TitleCSS = styled.h2`
-
-`
-
-const SentenceCSS = styled.span`
 
 `
 

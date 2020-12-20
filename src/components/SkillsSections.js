@@ -13,14 +13,7 @@ function SkillsSection(props) {
             <ul>
                 {
                     current.map(
-                        (skill) => {
-                            const name = skill[`name`]
-                            // const info = skill[`info`]
-
-                            return (
-                                <li>{name}</li>
-                            )
-                        }
+                        skill => <li>{skill}</li>
                     )
                 }
             </ul>
@@ -29,14 +22,7 @@ function SkillsSection(props) {
             <ul>
                 {
                     other.map(
-                        (skill) => {
-                            const name = skill[`name`]
-                            // const info = skill[`info`]
-
-                            return (
-                                <li>{name}</li>
-                            )
-                        }
+                        skill => <li>{skill}</li>
                     )
                 }
             </ul>
